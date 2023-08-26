@@ -29,4 +29,36 @@ let stringNumber = String(someNumber)
 
 let data = 'Mumbai'
 let res = Number(data)
-console.log( typeof (res))
+// console.log( typeof (res))
+
+// ------------------Operations----------------->
+
+let value = 3 
+let negvalue = -value
+// console.log(negvalue)
+
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2**2)
+// console.log(2/2)
+// console.log(2%2)
+
+let str1 = 2
+
+let str2 = 5 
+
+let str3 = str1 + str2
+// console.log(str3);
+
+//console.log ("1" + 2 + 2)
+// console.log (1 + 2 + "2")
+
+// console.log (+true) // output 1 
+// console.log (+"") //  output 0  
+
+let gamecounter = 100 ;
+// gamecounter++;
+++gamecounter
+console.log(gamecounter)
+
