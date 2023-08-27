@@ -1,11 +1,11 @@
-let score = "33abc"
+// let score = "33abc"
 // let score = null;
 // let score = undefine;
 
 // console.log(typeof score);
 // console.log(typeof (score));
 
-let valueInNumber = Number(score)
+// let valueInNumber = Number(score)
 // console.log(typeof valueInNumber)
 // console.log(valueInNumber);
 
@@ -57,8 +57,57 @@ let str3 = str1 + str2
 // console.log (+true) // output 1 
 // console.log (+"") //  output 0  
 
-let gamecounter = 100 ;
+// let gamecounter = 100 ;
 // gamecounter++;
-++gamecounter
-console.log(gamecounter)
+// ++gamecounter
+// console.log(gamecounter)
+
+//++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Data Type of javascript 
+
+// 1) primitive 
+// => string , Number , Boolean , undefine , null , symbol , BigInt
+
+
+let score1 = 100;
+let Name = "Yazdan"
+let Islogged = true
+ let Undefine01 ;
+ let NumberNull = null
+//  console.log( typeof NumberNull)
+
+// const id = symbol("123");
+// const anotherId = symbol("123");
+
+// console.log(id === anotherId)  // output false its will not same 
+
+// const bigNumber = 123456789012345n
+
+// console.log( typeof bigNumber)
+
+
+//  2) Non-primitive
+// Array , Object , function .
+
+
+const array = [ "Naeem", "Wasim", "Wajid", "kalim"] // example of array
+
+const Obj = {
+    name : "Yazi",
+    age : 33,
+    IsEngineer : true,
+    City : "Mumbai",
+  country : "India"
+}
+
+
+ const myFunction = function (a,b){
+}
+
+myFunction()
+// console.log( 2+5 )
+
+
+
 
